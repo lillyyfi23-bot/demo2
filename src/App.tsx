@@ -105,7 +105,7 @@ export default function App() {
 
         <main className="min-w-0 flex-1 px-5 py-7 md:px-10 md:py-9">
           <div className="mb-7 flex flex-wrap items-center justify-between gap-3">
-            <div><p className="mb-1 text-xs font-semibold uppercase tracking-[0.18em] text-lilac">THURSDAY, YOUR STYLE DAY</p><h1 className="text-3xl font-extrabold tracking-tight md:text-[34px]">{active === 'Discover' ? 'Find your next favorite.' : active}</h1><p className="mt-2 text-sm text-muted">A little inspiration for wherever today takes you.</p></div>
+            <div><p className="mb-1 text-xs font-semibold uppercase tracking-[0.18em] text-lilac">THURSDAY, YOUR STYLE DAY</p><h1 className="text-3xl font-extrabold tracking-tight md:text-[34px]">{active === 'Discover' ? 'Discover Your Personal Style.' : active}</h1><p className="mt-2 text-sm text-muted">A little inspiration for wherever today takes you.</p></div>
             <button onClick={() => setActive('Style assistant')} className="flex items-center gap-2 rounded-full bg-[#7866d9] px-5 py-3 text-xs font-bold text-white shadow-lg shadow-purple-200 transition hover:-translate-y-0.5 hover:bg-[#6654c3]"><Sparkles size={15} /> Get style advice</button>
           </div>
 
